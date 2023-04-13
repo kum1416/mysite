@@ -112,12 +112,12 @@ $(() => {
                             success:function(res){ // res - 결과값리턴
                                 console.log(res);
                                 if(res==="ok"){
-                                    $("mid").siblings(".msg")
+                                    $("#mid").siblings(".msg")
                                     .text("멋진 아이디네요!")
                                     .addClass("on");
                                 } //// ok ////
                                 else{ //// 아이디 중복시
-                                    $("mid").siblings(".msg")
+                                    $("#mid").siblings(".msg")
                                     .text("사용중인 ID입니다!")
                                     .removeClass("on");
 
