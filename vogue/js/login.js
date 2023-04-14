@@ -18,7 +18,7 @@ $(()=>{ ///////// jQB /////////////////
         e.preventDefault();
 
         // 공백데이터 처리함수 //
-        // const groSpace = val => val.replace("/\s/g","");
+        // const groSpace = val => val.replace(/\s/g,"");
 
         console.log("아이디:",mid.val().trim());
         console.log("비번:",mid.val().trim());
